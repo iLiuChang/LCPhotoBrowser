@@ -14,6 +14,16 @@
 		58D4633E1CFD973C00B56735 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58D4633C1CFD973C00B56735 /* LaunchScreen.storyboard */; };
 		58D463491CFD973D00B56735 /* LCPhotoBrowserDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D463481CFD973D00B56735 /* LCPhotoBrowserDemoTests.swift */; };
 		58D463541CFD973D00B56735 /* LCPhotoBrowserDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D463531CFD973D00B56735 /* LCPhotoBrowserDemoUITests.swift */; };
+		58D463781CFD97AB00B56735 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58D463771CFD97AB00B56735 /* Photos.framework */; };
+		58F863891CFFC8D4001EE295 /* LCPhotoAblumList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F863801CFFC8D4001EE295 /* LCPhotoAblumList.swift */; };
+		58F8638A1CFFC8D4001EE295 /* LCPhotoAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F863811CFFC8D4001EE295 /* LCPhotoAsset.swift */; };
+		58F8638B1CFFC8D4001EE295 /* LCPhotoAssetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F863821CFFC8D4001EE295 /* LCPhotoAssetViewController.swift */; };
+		58F8638C1CFFC8D4001EE295 /* LCPhotoBigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F863831CFFC8D4001EE295 /* LCPhotoBigViewController.swift */; };
+		58F8638D1CFFC8D4001EE295 /* LCPhotoBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F863841CFFC8D4001EE295 /* LCPhotoBrowser.swift */; };
+		58F8638E1CFFC8D4001EE295 /* LCPhotoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F863851CFFC8D4001EE295 /* LCPhotoListViewController.swift */; };
+		58F8638F1CFFC8D4001EE295 /* LCPhotoTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F863861CFFC8D4001EE295 /* LCPhotoTool.swift */; };
+		58F863931CFFCE34001EE295 /* btn_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 58F863911CFFCE34001EE295 /* btn_selected.png */; };
+		58F863941CFFCE34001EE295 /* btn_unselected.png in Resources */ = {isa = PBXBuildFile; fileRef = 58F863921CFFCE34001EE295 /* btn_unselected.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,18 @@
 		58D4634F1CFD973D00B56735 /* LCPhotoBrowserDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LCPhotoBrowserDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58D463531CFD973D00B56735 /* LCPhotoBrowserDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCPhotoBrowserDemoUITests.swift; sourceTree = "<group>"; };
 		58D463551CFD973D00B56735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58D463751CFD979300B56735 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		58D463761CFD979300B56735 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		58D463771CFD97AB00B56735 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		58F863801CFFC8D4001EE295 /* LCPhotoAblumList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCPhotoAblumList.swift; sourceTree = "<group>"; };
+		58F863811CFFC8D4001EE295 /* LCPhotoAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCPhotoAsset.swift; sourceTree = "<group>"; };
+		58F863821CFFC8D4001EE295 /* LCPhotoAssetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCPhotoAssetViewController.swift; sourceTree = "<group>"; };
+		58F863831CFFC8D4001EE295 /* LCPhotoBigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCPhotoBigViewController.swift; sourceTree = "<group>"; };
+		58F863841CFFC8D4001EE295 /* LCPhotoBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCPhotoBrowser.swift; sourceTree = "<group>"; };
+		58F863851CFFC8D4001EE295 /* LCPhotoListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCPhotoListViewController.swift; sourceTree = "<group>"; };
+		58F863861CFFC8D4001EE295 /* LCPhotoTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCPhotoTool.swift; sourceTree = "<group>"; };
+		58F863911CFFCE34001EE295 /* btn_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_selected.png; sourceTree = "<group>"; };
+		58F863921CFFCE34001EE295 /* btn_unselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_unselected.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58D463781CFD97AB00B56735 /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +100,8 @@
 		58D463271CFD973C00B56735 = {
 			isa = PBXGroup;
 			children = (
+				58F8637C1CFFC8D4001EE295 /* LCPhotoBrowser */,
+				58D463771CFD97AB00B56735 /* Photos.framework */,
 				58D463321CFD973C00B56735 /* LCPhotoBrowserDemo */,
 				58D463471CFD973D00B56735 /* LCPhotoBrowserDemoTests */,
 				58D463521CFD973D00B56735 /* LCPhotoBrowserDemoUITests */,
@@ -97,6 +122,7 @@
 		58D463321CFD973C00B56735 /* LCPhotoBrowserDemo */ = {
 			isa = PBXGroup;
 			children = (
+				58F863901CFFCE34001EE295 /* images */,
 				58D463331CFD973C00B56735 /* AppDelegate.swift */,
 				58D463351CFD973C00B56735 /* ViewController.swift */,
 				58D463371CFD973C00B56735 /* Main.storyboard */,
@@ -123,6 +149,29 @@
 				58D463551CFD973D00B56735 /* Info.plist */,
 			);
 			path = LCPhotoBrowserDemoUITests;
+			sourceTree = "<group>";
+		};
+		58F8637C1CFFC8D4001EE295 /* LCPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				58F863801CFFC8D4001EE295 /* LCPhotoAblumList.swift */,
+				58F863811CFFC8D4001EE295 /* LCPhotoAsset.swift */,
+				58F863821CFFC8D4001EE295 /* LCPhotoAssetViewController.swift */,
+				58F863831CFFC8D4001EE295 /* LCPhotoBigViewController.swift */,
+				58F863841CFFC8D4001EE295 /* LCPhotoBrowser.swift */,
+				58F863851CFFC8D4001EE295 /* LCPhotoListViewController.swift */,
+				58F863861CFFC8D4001EE295 /* LCPhotoTool.swift */,
+			);
+			path = LCPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		58F863901CFFCE34001EE295 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				58F863911CFFCE34001EE295 /* btn_selected.png */,
+				58F863921CFFCE34001EE295 /* btn_unselected.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +278,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58F863941CFFCE34001EE295 /* btn_unselected.png in Resources */,
 				58D4633E1CFD973C00B56735 /* LaunchScreen.storyboard in Resources */,
 				58D4633B1CFD973C00B56735 /* Assets.xcassets in Resources */,
 				58D463391CFD973C00B56735 /* Main.storyboard in Resources */,
+				58F863931CFFCE34001EE295 /* btn_selected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +307,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58F863891CFFC8D4001EE295 /* LCPhotoAblumList.swift in Sources */,
+				58F8638C1CFFC8D4001EE295 /* LCPhotoBigViewController.swift in Sources */,
+				58F8638F1CFFC8D4001EE295 /* LCPhotoTool.swift in Sources */,
+				58F8638D1CFFC8D4001EE295 /* LCPhotoBrowser.swift in Sources */,
+				58F8638B1CFFC8D4001EE295 /* LCPhotoAssetViewController.swift in Sources */,
 				58D463361CFD973C00B56735 /* ViewController.swift in Sources */,
+				58F8638A1CFFC8D4001EE295 /* LCPhotoAsset.swift in Sources */,
+				58F8638E1CFFC8D4001EE295 /* LCPhotoListViewController.swift in Sources */,
 				58D463341CFD973C00B56735 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +355,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				58D463381CFD973C00B56735 /* Base */,
+				58D463751CFD979300B56735 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -305,6 +364,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				58D4633D1CFD973C00B56735 /* Base */,
+				58D463761CFD979300B56735 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -399,10 +459,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = LCPhotoBrowserDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mr.Chang-Project.LCPhotoBrowserDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +474,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = LCPhotoBrowserDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Mr.Chang-Project.LCPhotoBrowserDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +550,7 @@
 				58D4635A1CFD973D00B56735 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58D4635B1CFD973D00B56735 /* Build configuration list for PBXNativeTarget "LCPhotoBrowserDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +559,7 @@
 				58D4635D1CFD973D00B56735 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58D4635E1CFD973D00B56735 /* Build configuration list for PBXNativeTarget "LCPhotoBrowserDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +568,7 @@
 				58D463601CFD973D00B56735 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
